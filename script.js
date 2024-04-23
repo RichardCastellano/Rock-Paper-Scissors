@@ -2,13 +2,13 @@ const rockButton = document.getElementById('rock');
 const paperButton = document.getElementById('paper');
 const scissorsButton = document.getElementById('scissors');
 
-rockButton.addEventListener('click', function() {
+rockButton.addEventListener('click', () => {
     playGame('rock')
 })
-paperButton.addEventListener('click', function() {
+paperButton.addEventListener('click', () => {
     playGame('paper')
 })
-scissorsButton.addEventListener('click', function() {
+scissorsButton.addEventListener('click', () => {
     playGame('scissors')
 })
 
